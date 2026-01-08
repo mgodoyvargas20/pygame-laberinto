@@ -323,7 +323,10 @@ class JuegoLaberinto:
         self.victoria = False
     
     def actualizar(self):
-        """Actualiza el estado del juego"""
+        """
+        Actualiza el estado del juego.
+        Reservado para futuras mejoras como animaciones, temporizadores, etc.
+        """
         pass
     
     def dibujar(self):

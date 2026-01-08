@@ -9,6 +9,8 @@ import sys
 import os
 
 # Configurar el entorno para pruebas sin display
+# SDL_VIDEODRIVER y SDL_AUDIODRIVER en modo 'dummy' permiten ejecutar
+# Pygame en entornos sin interfaz gráfica (headless) como servidores CI/CD
 os.environ['SDL_VIDEODRIVER'] = 'dummy'
 os.environ['SDL_AUDIODRIVER'] = 'dummy'
 
